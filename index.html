@@ -14,6 +14,7 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <style type="text/css">
         .scrolled {
             transition: 500ms ease;
@@ -23,37 +24,22 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-transparent fixed">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-                </button>
-                <span class="navbar-toggler-icon"></span>
-                <a class="navbar-brand " class="nav-link" style="text-decoration:none;" id="navfont">DogSafer</a>
-                <div class="collapse navbar-collapse" id="menu">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a id="navfont" class="nav-link" href="index.html"><i class="fas fa-home"></i> Home<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="navfont" class="nav-link" href="#"> Institucional</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="navfont" class="nav-link" href="#"> Produto</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ml-auto">
-                        <li id="navfont" class="nav-item">
-                            <a id="navfont" class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="navfont" style="border:1px #00DBB4;border-radius:40px;" class="nav-link" href="login.html"><i class="fas fa-user"></i> Área do Cliente</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <button type="button" class="navbar-toggler mr-auto" data-toggle="collapse" data-target="#menu"><span class="navbar-toggler-icon"></span></button>
+            <span class="navbar-brand">DogSafer</span>
+            <a href="#" class="btn d-lg-none ml-auto" style="color:#ffffff;"><i class="fas fa-user"></i></a>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a href="#" class="nav-link"><i class="fas fa-home"></i>Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Institucional</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Produto</a></li>
+                </ul>
+                <a href="#" class="btn d-none d-sm-none d-md-none d-lg-block ml-auto" style="border-radius:40px;border:1px solid #00DBB4;color:#ffffff;"><i class="fas fa-user mr-2"></i>Área do cliente</a>
             </div>
-        </nav>
-
+        </div>
+    </nav>
+    <header>
         <section id="hero">
             <div class="container hero-container mt-lg-5">
                 <h1 class="mt-lg-5">Não perca mais o seu cão</h1>
@@ -62,7 +48,6 @@
             </div>
         </section>
     </header>
-
     <section class="content1">
         <div class="container my-5">
             <div class="row ">
@@ -105,11 +90,11 @@
         <div class="container my-5">
             <div class="row">
                 <div class="col-md-8">
-                    <h3><i style="color:rgb(255,0,0);" class="fas fa-map-marker-alt"></i> Localização Via Satélite</i></h3>
+                    <h3><i style="color:rgb(255,0,0);" class="fas fa-map-marker-alt mt-5"></i> Localização Via Satélite</i></h3>
                     <p>Ache o seu cão a qualquer distância que ele esteja de você</p>
-                    <h3><i style="color:rgb(255,0,0);"class="fas fa-search-minus"></i> Compacto</i></h3>
+                    <h3><i style="color:rgb(255,0,0);" class="fas fa-search-minus mt-5"></i> Compacto</i></h3>
                     <p>Além de ser pequeno é leve e não vai atrapalhar o movimento do seu animal</p>
-                    <h3><i style="color:rgb(255,0,0);" class="fas fa-music"></i> Alarme Sonoro</i></h3>
+                    <h3><i style="color:rgb(255,0,0);" class="fas fa-music mt-5"></i> Alarme Sonoro</i></h3>
                     <p>Você também pode treinar seu animal para retornar quando ele escutar o alarme</p>
                 </div>
                 <div class="col-md-4">
